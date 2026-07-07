@@ -1,8 +1,10 @@
 # Critical Minerals Strategy — Canada & Europe
 
+Strategic economic analysis of Canada’s potential role in European critical mineral supply chains.
+
 ## Overview
 
-This project analyzes whether Canada can become a strategic diversification partner for Europe in critical mineral supply chains.
+This project examines whether Canada can become a credible diversification partner for Europe in critical minerals.
 
 The study focuses on six strategic minerals:
 
@@ -13,7 +15,7 @@ The study focuses on six strategic minerals:
 - Graphite
 - Rare earth elements
 
-The objective is not only to compare geological resources, but also to assess production capacity, industrial maturity, processing capabilities and strategic relevance for Europe.
+The objective is not only to compare geological resources, but also to assess production capacity, processing capabilities, industrial maturity and strategic relevance for Europe.
 
 ## Research Question
 
@@ -34,11 +36,48 @@ A comparative scoring model was built using six criteria:
 
 Each mineral receives a score out of 100, allowing a comparative assessment of Canada’s strategic potential.
 
+## Data
+
+The `data/` folder contains:
+
+- `scoring_table.csv`: final ranking and strategic scores by mineral
+- `methodology_criteria.csv`: criteria and weights used in the scoring model
+- `canada_critical_minerals_scoring.xlsx`: Excel workbook used to build the scoring model and comparative analysis
+
+## Reports
+
+The `reports/` folder contains the full reports:
+
+- [French report](reports/Canada_Critical_Minerals_Europe_Report_FR.pdf)
+- [English report](reports/Canada_Critical_Minerals_Europe_Report_EN.pdf)
+
+## Visual Outputs
+
+The `outputs/` folder contains the main tables and charts produced for the analysis.
+
+### Scoring table by mineral
+
+![Scoring table by mineral](outputs/table1_scoring_by_mineral.png)
+
+### Final ranking
+
+![Final ranking](outputs/table2_final_ranking.png)
+
+### Strategic score by mineral
+
+![Strategic score by mineral](outputs/chart1_score_by_mineral.png)
+
+### Criteria comparison
+
+![Criteria comparison](outputs/chart2_criteria_comparison.png)
+
+### Industrial maturity vs strategic potential
+
+![Industrial maturity vs strategic potential](outputs/chart3_maturity_vs_potential.png)
+
 ## Key Results
 
-Nickel and lithium appear as the strongest opportunities for Europe.
-
-| Rank | Mineral | Score /100 | Strategic Potential |
+| Rank | Mineral | Score /100 | Strategic potential |
 |---:|---|---:|---|
 | 1 | Nickel | 89 | Very strong |
 | 2 | Lithium | 81 | Very strong |
@@ -47,13 +86,13 @@ Nickel and lithium appear as the strongest opportunities for Europe.
 | 5 | Rare earth elements | 69 | Strong but incomplete |
 | 6 | Graphite | 65 | Strong but incomplete |
 
-The main conclusion is that mineral sovereignty does not depend only on geology. Canada’s role will depend on its ability to build complete value chains, from extraction to processing, refining and recycling.
-
 ## Main Conclusion
 
 Canada can become a credible but partial diversification partner for Europe.
 
-Its strongest short-term potential lies in nickel, while lithium represents a promising medium-term opportunity. Copper and cobalt can support diversification, but remain limited in global scale. Graphite and rare earth elements require further industrial development, especially in processing and refining.
+Nickel is the strongest short-term opportunity, supported by existing production and processing capacity. Lithium is highly promising, but still requires stronger industrial development. Copper and cobalt can support diversification, while graphite and rare earth elements remain more dependent on future processing and refining capacity.
+
+The main lesson is that mineral sovereignty does not depend only on geological resources. It also depends on complete value chains: extraction, processing, refining and recycling.
 
 ## Skills Demonstrated
 
@@ -63,9 +102,6 @@ Its strongest short-term potential lies in nickel, while lithium represents a pr
 - Supply chain risk assessment
 - Strategic scoring
 - Data interpretation
+- Excel-based analysis
 - Report writing
 - Policy-oriented analysis
-
-## Report
-
-The full report is available in the `report/` folder.
